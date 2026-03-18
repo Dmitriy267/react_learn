@@ -31,15 +31,9 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
-input,
-button,
-textarea {
-    font-size: inherit;
-}
+
 button {
     cursor: pointer;
-    color: inherit;
-    background-color: inherit;
 }
 
 ul li {
@@ -48,7 +42,11 @@ ul li {
 img {
     vertical-align: top;
 }
-
+input,
+button,
+textarea {
+    border: 1px solid black;
+}
 h1,
 h2,
 h3,
@@ -57,4 +55,13 @@ h5,
 h6 {
     font-weight: inherit;
     font-size: inherit;
+}
+button {
+    padding: 5px;
+    margin: 6px;
+}
+
+input {
+    padding: 4px;
+    margin: 3px;
 }
