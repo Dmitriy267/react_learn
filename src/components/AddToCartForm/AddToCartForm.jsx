@@ -2,7 +2,7 @@ import { useActionState } from 'react';
 import './AddToCartForm.css';
 async function addToCart(prev, formData) {
     const itemID = formData.get('itemID');
-    console.log(`itemID`, itemID);
+
     if (itemID === '1') {
         return {
             success: true,

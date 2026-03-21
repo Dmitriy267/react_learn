@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from 'react';
 
 const ChildComponent = React.memo(({ onButtonClick }) => {
-    console.log('ChildComponent rendered');
     return <button onClick={onButtonClick}>Increment</button>;
 });
 export function ParentComponent() {
