@@ -5,6 +5,7 @@ import { IncrementAndDecrement } from '../../components/IncrementAndDecrement/In
 import { Cart } from '../../components/Cart/Cart';
 import { DateCounter } from '../../components/DateCounter/DateCounter';
 import { Books } from '../../components/Books/Books';
+import { Users } from '../../components/Users/Users';
 import './UseReducerList.css';
 export const UseReducerList = () => {
     return (
@@ -32,6 +33,10 @@ export const UseReducerList = () => {
             <section className="reduser_section">
                 <h2>Книги</h2>
                 <Books />
+            </section>
+            <section className="reduser_section">
+                <h2>Пользователи</h2>
+                <Users />
             </section>
         </>
     );
