@@ -6,6 +6,8 @@ import { Cart } from '../../components/Cart/Cart';
 import { DateCounter } from '../../components/DateCounter/DateCounter';
 import { Books } from '../../components/Books/Books';
 import { Users } from '../../components/Users/Users';
+import { Posts } from '../../components/Posts/Posts';
+import { Alboms } from '../../components/Alboms/Alboms';
 import './UseReducerList.css';
 export const UseReducerList = () => {
     return (
@@ -37,6 +39,14 @@ export const UseReducerList = () => {
             <section className="reduser_section">
                 <h2>Пользователи</h2>
                 <Users />
+            </section>
+            <section className="reduser_section">
+                <h2>Посты</h2>
+                <Posts />
+            </section>
+            <section className="reduser_section">
+                <h2>Альбомы пользователей по API</h2>
+                <Alboms />
             </section>
         </>
     );

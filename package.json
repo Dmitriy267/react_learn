@@ -2,7 +2,6 @@
     "name": "react_learn",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://dmitriy267.github.io/react_learn/",
     "type": "module",
     "scripts": {
         "dev": "vite",
