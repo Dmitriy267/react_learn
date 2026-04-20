@@ -7,6 +7,7 @@ import { UseCallbackList } from './pages/UseCallbackList/UseCallbackList';
 import { UseActionStateList } from './pages/UseActionStateList/UseActionStateList';
 import { UseOptimisticList } from './pages/UseOptimisticList/UseOptimisticList';
 import { UseMethod } from './pages/UseMethod/UseMethod';
+import { UseMemoList } from './pages/UseMemoList/UseMemoList';
 function List() {
     return (
         <>
@@ -34,6 +35,9 @@ function List() {
                     <li>
                         <Link to="/use ">UseMethod </Link>
                     </li>
+                    <li>
+                        <Link to="/useMemo ">UseMemo </Link>
+                    </li>
                 </ul>
             </nav>
         </>
@@ -59,6 +63,7 @@ function App() {
                         element={<UseOptimisticList />}
                     />
                     <Route path="/use" element={<UseMethod />} />
+                    <Route path="/useMemo" element={<UseMemoList />} />
                 </Routes>
             </div>
         </>
