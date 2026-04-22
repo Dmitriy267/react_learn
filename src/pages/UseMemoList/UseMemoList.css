@@ -1,4 +1,10 @@
 .memo__list {
-    font-family: sans-serif;
+    width: 100%;
+
     text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid grey;
+}
+total__text {
+    font-family: sans-serif;
 }

@@ -15,7 +15,8 @@ export function SumItems() {
             qtd: 11,
         },
     };
-    function sumValues() {
+
+    function sumValues(marketList) {
         let total = Object.values(marketList).reduce((acc, cur) => {
             return acc + cur.price * cur.qtd;
         }, 0);
@@ -25,7 +26,7 @@ export function SumItems() {
 
     return (
         <>
-            <p>Total: {totalPrice}</p>
+            <p className="total__text">Total: {totalPrice}</p>
         </>
     );
 }
